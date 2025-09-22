@@ -25,6 +25,10 @@ function DigitalClock(){
         return `${hours}:${minutes}:${seconds} ${meridiem}`;
     }
 
+    function padZero(){
+        
+    }
+
     return(
         <div className="clock-container">
             <div className="clock">
